@@ -46,32 +46,3 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 1. Pressionar ```esc```
 2. Depois digitar ```:wq```
 3. Pressionar enter
-
-- Faça a mesma coisa para o arquivo Vault usando o seguinte:
-
-```
-sudo vi /etc/yum.repos.d/CentOS-Vault.repo
-```
-
-```
-[base]
-name=CentOS-7 - Base
-baseurl=http://vault.centos.org/7.9.2009/os/$basearch/
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-enabled=1
-
-[updates]
-name=CentOS-7 - Updates
-baseurl=http://vault.centos.org/7.9.2009/updates/$basearch/
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-enabled=1
-
-[extras]
-name=CentOS-7 - Extras
-baseurl=http://vault.centos.org/7.9.2009/extras/$basearch/
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-enabled=1
-```
