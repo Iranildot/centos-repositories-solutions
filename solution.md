@@ -1,11 +1,10 @@
-- please switch to Vault archive repositories:
+- Mude para os repositórios de arquivo do Vault usando:
 
 ```
-vi /etc/yum.repos.d/CentOS-Base.repo
+sudo vi /etc/yum.repos.d/CentOS-Base.repo
 ```
 
-- copy/paste the following and mind your OS version. Change if needed. In this config is version 7.9.2009:
-
+- copie/cole o seguinte e observe a versão do seu SO. Altere se necessário. Nesta configuração está a versão 7.9.2009:
 
 ```
 # CentOS-EOL.repo
@@ -45,3 +44,9 @@ enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 ```
+
+- Para salvar o conteúdo você precisa fazer os seguintes passos:
+
+1. Pressionar ```esc```
+2. Depois digitar ```:wq```
+3. Pressionar enter
