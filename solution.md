@@ -4,6 +4,8 @@
 sudo vi /etc/yum.repos.d/CentOS-Base.repo
 ```
 
+obs: caso tenha conteúdo, pressione ```insert``` para poder apagar os dados.
+
 - copie/cole o seguinte e observe a versão do seu SO. Altere se necessário. Nesta configuração está a versão 7.9.2009:
 
 ```
