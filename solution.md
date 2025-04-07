@@ -50,7 +50,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 - Faça a mesma coisa para o arquivo Vault usando o seguinte:
 
 ```
-sudo vi /etc/yum.repos.d/CentOS-Base.repo
+sudo vi /etc/yum.repos.d/CentOS-Vault.repo
 ```
 
 ```
