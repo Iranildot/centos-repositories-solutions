@@ -1,3 +1,13 @@
+- please switch to Vault archive repositories:
+
+```
+vi /etc/yum.repos.d/CentOS-Base.repo
+```
+
+- copy/paste the following and mind your OS version. Change if needed. In this config is version 7.9.2009:
+
+
+
 # CentOS-EOL.repo
 #
 # This is an example config which can be used to deal with EOL RHEL
