@@ -7,7 +7,7 @@ vi /etc/yum.repos.d/CentOS-Base.repo
 - copy/paste the following and mind your OS version. Change if needed. In this config is version 7.9.2009:
 
 
-
+```
 # CentOS-EOL.repo
 #
 # This is an example config which can be used to deal with EOL RHEL
@@ -44,3 +44,4 @@ baseurl=http://archive.kernel.org/centos-vault/7.9.2009/centosplus/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+```
