@@ -1,4 +1,4 @@
-- Mude para os repositórios de arquivo do Vault usando:
+- Mude para os repositórios de arquivo do Base usando:
 
 ```
 sudo vi /etc/yum.repos.d/CentOS-Base.repo
@@ -7,12 +7,6 @@ sudo vi /etc/yum.repos.d/CentOS-Base.repo
 - copie/cole o seguinte e observe a versão do seu SO. Altere se necessário. Nesta configuração está a versão 7.9.2009:
 
 ```
-# CentOS-EOL.repo
-#
-# This is an example config which can be used to deal with EOL RHEL
-# You MUST look to mirroring this locally if you want long term access
-#
-
 [base]
 name=CentOS-$releasever - Base
 baseurl=http://archive.kernel.org/centos-vault/7.9.2009/os/$basearch/
